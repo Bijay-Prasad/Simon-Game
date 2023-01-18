@@ -6,7 +6,7 @@ var gamePattern = [];
 var started = false;
 var level = 0;
 
-$(document).on("click", function() {
+$("#level-title").on("click", function() {
     $("#level-title").css("color ", "green");
     if(!started){
 
